@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const phone = formData.get("phone")?.toString().trim();
             const message = formData.get("message")?.toString().trim();
 
-            const whatsappNumber = "919526482417";
+            const whatsappNumber = "917025259613";
             let text = `Hi, my name is ${name}.\nEmail: ${email}.`;
             if (phone) {
                 text += `\nPhone: ${phone}.`;
